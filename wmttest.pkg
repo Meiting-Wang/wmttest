@@ -1,0 +1,9 @@
+v 1.0.0
+d 'WMTTEST': wmttest
+d 
+d output ttest table to Word, LaTeX, Stata interface.
+d 
+d Distribution-Date:   20200427
+d License: MIT
+d 
+F wmttest.ado
