@@ -81,7 +81,6 @@ wmttest price rep78 weight mpg using Myfile.tex, replace by(foreign) a(dot) //�
 > 以上所有实例都可以在`help wmttest`中直接运行。
 > ![](https://imgkr.cn-bj.ufileos.com/36b2180f-0b6a-4890-b958-75401ef85b87.png)
 
-
 ## 五、输出效果展示
 
 - **Stata**
@@ -93,9 +92,9 @@ wmttest price rep78 weight mpg, by(foreign)
 ```stata
 Grouping T-means test
 ---------------------------------------------------------------
-                  N1     mean1        N2     mean2 mean_diff   
+                  N1     mean1        N2     mean2 mean_diff
 ---------------------------------------------------------------
-price             52  6072.423        22  6384.682  -312.259   
+price             52  6072.423        22  6384.682  -312.259
 rep78             48     3.021        21     4.286    -1.265***
 weight            52  3317.115        22  2315.909  1001.206***
 mpg               52    19.827        22    24.773    -4.946***
