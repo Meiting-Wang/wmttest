@@ -1,9 +1,10 @@
-v 1.0.0
+v v1.0.0
 d 'WMTTEST': wmttest
 d 
-d output ttest table to Word, LaTeX, Stata interface.
+d Output grouping T-means test to Stata interface, Word as well as LaTeX.
 d 
-d Distribution-Date:   20200427
+d Distribution-Date:   20200507
 d License: MIT
 d 
 F wmttest.ado
+F wmttest.sthlp

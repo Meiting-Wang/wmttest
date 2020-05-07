@@ -1,7 +1,7 @@
 * Feather: output Grouping t-means test to Stata interface, Word and LaTeX
 * Author: Meiting Wang, Master, School of Economics, South-Central University for Nationalities
-* Email: 2017110097@mail.scuec.edu.cn
-* Created on Oct 24th, 2019
+* Email: wangmeiting92@gmail.com
+* Created on May 7th, 2020
 
 
 program define wmttest
@@ -9,20 +9,6 @@ version 15.1
 
 syntax varlist(numeric) [if] [in] [using/] , by(varname numeric) [ ///
 	replace append Statistics(string) TItle(string) Alignment(string) PAGE(string)]
-/*
-optional illustration:
-1. varlist: only numeric variable names permitted.
-2. by(): only a numeric variable name permitted, and this variable should be a binary variable.
-3. statistics(): include N N1 N2 mean1 mean2 mean_diff se t p, and you can set 
-the format of every statistics, such as mean1(%9.3f) mean2(5).
-4. title(): set the title for the reported table, Grouping t-means test as the default.
-5. alignment(): only used in the LaTeX output, set the column format of the LaTeX
-table, but it will not impact the column format in the Stata output table, dot as 
-the default.
-6. page(): only used in the LaTeX output,set the extra package for the LaTeX code.
-please don't need to add the package of booktabs array dcolumn, because the code 
-will automatic process these with the option of alignment().
-*/
 
 
 *--------设置默认格式------------
@@ -64,7 +50,7 @@ if "`using'" != "" {
 }
 
 if "`title'" == "" {
-	local title "Grouping t-means test"
+	local title "Grouping T-means test"
 } //设置默认标题
 
 local addnotes_stata ""
@@ -168,9 +154,14 @@ local st = ustrtrim("`st'")
 local stl = ustrtrim("`stl'")
 
 *构建esttab中alignment()和page()内部的语句(LaTeX输出专属)
+if "`alignment'" == "" {
+	local alignment "math"
+} //默认下LaTeX输出的列格式
+
 if "`page'" != "" {
 	local page ",`page'"
 }
+
 if "`alignment'" == "math" {
 	local page "array`page'"
 	local alignment "*{`stat_num'}{>{$}c<{$}}"
