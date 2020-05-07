@@ -74,7 +74,7 @@ wmttest price rep78 weight mpg, by(foreign) //依据foreign对变量进行分组
 wmttest price rep78 weight mpg, by(foreign) s(mean1(%9.2f) mean2 p(star 4)) //自定义统计量及其数值格式和显著性星号标注的位置
 wmttest price rep78 weight mpg, by(foreign) ti(This is a special title) //自定义标题
 wmttest price rep78 weight mpg using Myfile.rtf, replace by(foreign) //将结果输出至 Word
-wmttest price rep78 weight mpg using Myfile.tex, replace by(foreign) //将结果输出与 LaTeX
+wmttest price rep78 weight mpg using Myfile.tex, replace by(foreign) //将结果输出至 LaTeX
 wmttest price rep78 weight mpg using Myfile.tex, replace by(foreign) a(dot) //将 LaTeX 列表格格式设置为小数点对齐
 ```
 
