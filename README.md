@@ -20,7 +20,7 @@
 
 本文介绍的`wmttest`的命令，可以将分组 T 均值检验输出至 Stata 界面、Word 的 .rtf 文件和 LaTeX 的.tex 文件。基于`esttab`内核，`wmttest`不仅具有了`esttab`的优点，同时也简化了书写语法。
 
-本文阐述的`wmttest`命令，和已经或即将推出`wmtsum`、`wmtcorr`、`wmtreg`和`wmtmat`命令，都可以通过`append`选项成为一个整体，将结果集中于一个 Word 或 LaTeX 文件中。关于以上系列命令更多的优点，可参阅[「Stata 新命令：wmtsum——描述性统计表格的输出」](https://mp.weixin.qq.com/s/oLgXf0KTgoePOnN1mJUllA)。
+本文阐述的`wmttest`命令，和已经或即将推出`wmtsum`、`wmtcorr`、`wmtreg`和`wmtmat`命令，都可以通过`append`选项成为一个整体，将输出结果集中于一个 Word 或 LaTeX 文件中。关于以上系列命令更多的优点，可参阅[「Stata 新命令：wmtsum——描述性统计表格的输出」](https://mp.weixin.qq.com/s/oLgXf0KTgoePOnN1mJUllA)。
 
 ## 二、命令的安装
 
