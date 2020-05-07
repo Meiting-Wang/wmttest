@@ -38,7 +38,7 @@ where the subcommands can be :
 {marker Description}{title:Description}
 
 {p 4 4 2}
-{bf:wmttest}, based on esttab, can output grouped T-means test to  Stata interface, Word as well as LaTeX. User can use this command easily due to its simple syntax. It is worth noting that this command can only be used in version 15.1 or later.
+{bf:wmttest}, based on esttab, can output grouped T-means test to Stata interface, Word as well as LaTeX. User can use this command easily due to its simple syntax. It is worth noting that this command can only be used in version 15.1 or later.
 
 {p 4 4 2}
 Users can also append the output from {bf:wmttest} to other word or LaTeX document,
