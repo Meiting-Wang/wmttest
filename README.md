@@ -79,7 +79,7 @@ wmttest price rep78 weight mpg using Myfile.tex, replace by(foreign) a(dot) //�
 ```
 
 > 以上所有实例都可以在`help wmttest`中直接运行。
-> ![](https://imgkr.cn-bj.ufileos.com/36b2180f-0b6a-4890-b958-75401ef85b87.png)
+> ![image](https://user-images.githubusercontent.com/42256486/81492102-e36dea00-92c7-11ea-9b3b-9ecd4a0478e6.png)
 
 ## 五、输出效果展示
 
@@ -108,7 +108,7 @@ mpg               52    19.827        22    24.773    -4.946***
 wmttest price rep78 weight mpg using Myfile.rtf, replace by(foreign)
 ```
 
-![](https://imgkr.cn-bj.ufileos.com/6507dd49-3e25-4ec7-9276-c039bbe1dd6b.png)
+![image](https://user-images.githubusercontent.com/42256486/81492106-ed8fe880-92c7-11ea-97ea-224e47fea139.png)
 
 - **LaTeX**
 
@@ -116,12 +116,12 @@ wmttest price rep78 weight mpg using Myfile.rtf, replace by(foreign)
 wmttest price rep78 weight mpg using Myfile.tex, replace by(foreign)
 ```
 
-![](https://imgkr.cn-bj.ufileos.com/1bd62d50-339f-4c99-97d6-c3cc6303c884.png)
+![image](https://user-images.githubusercontent.com/42256486/81492116-f2549c80-92c7-11ea-9012-30b1fc094518.png)
 
 ```stata
 wmttest price rep78 weight mpg using Myfile.tex, replace by(foreign) a(dot)
 ```
 
-![](https://imgkr.cn-bj.ufileos.com/4beecc88-b2a7-4244-aad9-1d5661a9a4e1.png)
+![image](https://user-images.githubusercontent.com/42256486/81492118-f7195080-92c7-11ea-9a84-0f99b68e70f4.png)
 
 > 在将结果输出至 Word 或 LaTeX 时，Stata 界面上也会呈现对应的结果，以方便查看。
