@@ -1,5 +1,5 @@
 {smcl}
-
+{right:Updated time: May 7, 2020}
 {* -----------------------------title------------------------------------ *}{...}
 {p 0 17 2}
 {bf:[W-2] wmttest} {hline 2} Output grouping T-means test to Stata interface, Word as well as LaTeX. The source code can be gained in {browse "https://github.com/Meiting-Wang/wmttest":github}.
