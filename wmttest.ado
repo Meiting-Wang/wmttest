@@ -173,6 +173,7 @@ else {
 //加上array宏包可使得表格线之间的衔接没有空缺
 
 *---------------------主程序----------------------------------
+eststo clear
 qui estpost ttest `varlist' `if' `in', by(`by')
 esttab, cells("`st'") compress ///
 	noobs nomti nonum starlevels(* 0.10 ** 0.05 *** 0.01) ///
