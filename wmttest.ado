@@ -8,7 +8,7 @@ program define wmttest
 version 15.1
 
 syntax varlist(numeric) [if] [in] [using/] , by(varname numeric) [ ///
-	replace append Statistics(string) TItle(string) Alignment(string) PAGE(string)]
+	replace append Statistics(string) TItle(string) Alignment(string) PAGE(string) UNEqual Welch LISTwise CASEwise]
 
 
 *--------设置默认格式------------
@@ -174,7 +174,7 @@ else {
 
 *---------------------主程序----------------------------------
 eststo clear
-qui estpost ttest `varlist' `if' `in', by(`by')
+qui estpost ttest `varlist' `if' `in', by(`by') `unequal' `welch' `listwise' `casewise'
 esttab, cells("`st'") compress ///
 	noobs nomti nonum starlevels(* 0.10 ** 0.05 *** 0.01) ///
 	`addnotes_stata' title(`title') //Stata 界面显示
