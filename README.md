@@ -1,6 +1,6 @@
 # Stata 新命令：wmttest——分组 T 均值检验表格的输出
 
-> 作者：王美庭hh  
+> 作者：王美庭  
 > Email: wangmeiting92@gmail.com
 
 ## 更新记录
