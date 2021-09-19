@@ -130,3 +130,5 @@ wmttest price rep78 weight mpg using Myfile.tex, replace by(foreign) a(dot)
 ![image](https://user-images.githubusercontent.com/42256486/81492118-f7195080-92c7-11ea-9a84-0f99b68e70f4.png)
 
 > 在将结果输出至 Word 或 LaTeX 时，Stata 界面上也会呈现对应的结果，以方便查看。
+
+> 点击【阅读原文】可进入该命令的 github 项目。
